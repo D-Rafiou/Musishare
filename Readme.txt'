@@ -1,16 +1,16 @@
 works on linux systems 
 
-npm install 
 
 this app allows you to connect with people while also finding new music to listen to
 
+npm install 
 
-node server.js      
+node server.js  inside the ServerWithSQLiteDatabase directory    
 
 should have access to everything 
 with 
 
-admin user : Rafiou password: admin  can create as many guest users as you want 
+admin user: Rafiou password: admin  can create as many guest users as you want 
 http://localhost:3000/index.html
 
 
