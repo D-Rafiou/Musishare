@@ -1,0 +1,22 @@
+works on linux systems 
+
+npm install 
+
+this app allows you to connect with people while also finding new music to listen to
+
+
+node server.js      
+
+should have access to everything 
+with 
+
+admin user : Rafiou password: admin  can create as many guest users as you want 
+http://localhost:3000/index.html
+
+
+
+youtube overview of website
+
+https://youtu.be/d25yddV7vro
+
+

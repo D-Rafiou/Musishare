@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head> 
+
+  <title> {{title}} </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<div id = "err" class = "container"     style = "display :none;" >
+   <h1>Admin priviliges required to see chat history</h1>
+        <input type='button' id="backer" value='Go Back'>
+
+</div>
+<body> 
+   <div id = "admin"    style = "display :none;" >
+   <h1>{{title}}</h1>
+<div class="container"> 
+   {{#each messageEntries}} 
+      <p>UserID: {{this.message}} </a></p> 
+   {{/each}} 
+     <input type='button' id="back" value='Go Back'>
+
+</div>
+
+</div>
+
+
+<script  src='users.js'></script>
+
+</body>
+</html>

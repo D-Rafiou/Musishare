@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:#d6ffd5; /* Light green background */
+}
+
+Center everything
+div {
+  margin: auto;
+  width: 50%;
+  height: auto; /* Set height to auto */
+  border: 3px solid rgba(16, 16, 16, 0.733);
+  padding: 10px;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.container {
+  margin: auto;
+  width: 50%;
+  height: auto; /* Set height to auto */
+  border: 3px solid rgb(8, 8, 8);
+  padding: 10px;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+
+#Connect {
+  margin: auto;
+  width: 100%;
+  height: auto; /* Set height to auto */
+  border: 3px solid rgb(4, 4, 4);
+  padding: 10px;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+buttons{
+
+  border: 3px solid rgb(246, 244, 244);
+
+
+}
+#back{
+
+  margin: auto;
+  width: 100%;
+  height: auto; /* Set height to auto */
+  border: 3px solid rgb(4, 4, 4);
+  padding: 10px;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+
+
+}
+
+h1,
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Set height to 100% to center vertically */
+}
